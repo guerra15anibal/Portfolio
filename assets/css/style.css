@@ -1,0 +1,193 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+  height: 500px;
+}
+
+.bannerImg {
+  width: 100%;
+  display: block;
+  height: 550px;
+}
+
+body {
+  background-color: #343a40 !important;
+  font-family: "Alice", serif;
+}
+
+#anibal {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 80px;
+}
+
+#aboutMe {
+  color: white;
+  font-size: 22.5px;
+  background: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url();
+}
+
+#aboutImage {
+  float: left;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+#titleName {
+  padding-left: 50px;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.d-inline-block align-top {
+  position: sticky;
+  top: 0;
+}
+
+.display-3 {
+  font-size: 100px;
+}
+
+#dot {
+  color: aqua;
+}
+
+#im {
+  font-size: 50px;
+}
+
+#fish {
+  font-size: 15px;
+  padding-bottom: 200px;
+}
+
+#fishIcon {
+  color: rgba(102, 209, 41, 0.561);
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+#projects {
+  padding-top: 100px;
+}
+
+.navbar {
+  font-size: 15px;
+}
+
+#navbar {
+  width: 100%;
+}
+
+.card-body {
+  background-color: grey;
+  font-size: 20px;
+  height: 200px;
+}
+
+#submit {
+  margin-bottom: 250px;
+}
+
+#copyright {
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#rowContainer {
+  padding-top: 15px;
+}
+
+#navbarNav {
+  margin-left: 82%;
+}
+
+#aboutme {
+  page-break-after: auto;
+}
+
+#site-footer {
+  color: white;
+  padding: 15px;
+}
+
+#social-fb {
+  color: dodgerblue;
+}
+
+#social-gl {
+  color: grey;
+}
+
+#social-li {
+  color: whitesmoke;
+}
+
+.card-text {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+      no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  #navbar {
+    width: 100%;
+  }
+  #rowContainer {
+    padding-top: 15px;
+    padding-left: 80px;
+  }
+}
