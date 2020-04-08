@@ -142,10 +142,6 @@ header .overlay {
   padding-top: 15px;
 }
 
-#navbarNav {
-  margin-left: 82%;
-}
-
 #aboutme {
   page-break-after: auto;
 }
@@ -172,9 +168,10 @@ header .overlay {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   #navbar {
     width: 100%;
+    background-color: #343a40 !important;
   }
   #rowContainer {
     padding-top: 15px;
