@@ -6,7 +6,7 @@ var firebaseConfig = {
   projectId: "portfolio-2633a",
   storageBucket: "portfolio-2633a.appspot.com",
   messagingSenderId: "594226420866",
-  appId: "1:594226420866:web:8ab1e4ca4e9ed062a1a89b"
+  appId: "1:594226420866:web:8ab1e4ca4e9ed062a1a89b",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -17,7 +17,7 @@ var messageData = firebase.database();
 var messageRef = firebase.database().ref("messages");
 
 // Listen For Submit
-$(document).on("click", "#submit", function() {
+$(document).on("click", "#submit", function () {
   event.preventDefault();
   var email = $("#email").val();
   var name = $("#name").val();
@@ -32,6 +32,6 @@ function saveMessage(email, name, subject, message) {
     email: email,
     name: name,
     subject: subject,
-    message: message
+    message: message,
   });
 }
