@@ -24,6 +24,13 @@ $(document).on("click", "#submit", function () {
   var subject = $("#subject").val();
   var message = $("#message").val();
   saveMessage(email, name, subject, message);
+  if (email,name,subject,message == ""){
+    alert("Must fill form completely!!")
+  }else{
+  $("#form").remove();
+  var div = `<div class = 'newForm' >Thank you, I will contact you ASAP!</div>`
+  $("#newForm").append(div);
+  }
 });
 
 function saveMessage(email, name, subject, message) {
